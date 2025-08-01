@@ -4,7 +4,7 @@ const bcryptjs = require("bcryptjs");
 const crypto = require("crypto");
 const { type } = require("os");
 
-
+//usrename, chatId, profilePic, ticketBalance, referalId, email, password, loginType, referrals, referralLink, DailyReward, otp, otpExpires, totalGames, withdrawOtp, emailOtp2FA, otpVerified, status, wallet, bio, referralCode, referrerId
 const userSchema = mongoose.Schema({
     userName: {
         type: String,
