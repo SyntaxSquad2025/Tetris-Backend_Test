@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-
+// withdrawalSchema.js
 const withdrawalSchema = mongoose.Schema(
   {
     userId: {
